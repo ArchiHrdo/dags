@@ -19,7 +19,7 @@ default_args = {
     }
 
 dag = DAG(
-    'tutorial',
+    'tutorial-dev-dag',
     default_args=default_args,
     description='A simple tutorial DAG',
     # Continue to run DAG once per day
